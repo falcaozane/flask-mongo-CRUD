@@ -43,7 +43,7 @@
                         // Hide the password field initially
                         document.getElementById('password-{{ user._id }}').type = 'password';
                     </script>
-                    <button type="submit" class="px-4 py-2 bg-green-500 text-white font-bold rounded-lg cursor-pointer ml-2">Update</button>
+                    <button type="submit" class="px-4 py-2 bg-blue-500 text-white font-bold rounded-lg cursor-pointer ml-2">Update</button>
                 </form>
                 <form action="/delete/{{ user._id }}" method="POST">
                     <button type="submit" class="px-4 py-2 bg-red-500 text-white font-bold rounded-lg cursor-pointer ml-2">Delete</button>
@@ -52,5 +52,6 @@
             {% endfor %}
         </ul>
     </div>
+    <footer class="bg-amber-500 text-center p-5 text-white">Made by <a class="cursor-pointer font-bold" href="http://falcaozane.netlify.app">@falcaozane</a></footer>
 </body>
 </html>
