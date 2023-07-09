@@ -1,3 +1,3 @@
 # flask-mongo-CRUD
 
-User Register web app using flask pymongo
+User Registeration web app using flask pymongo
